@@ -37,3 +37,24 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/your-username/blog-platform-api.git
    cd blog-platform-api
+  
+
+
+2. Install the dependencies:
+
+   ```bash
+    npm install
+
+3.Create a .env file in the root directory and add your MongoDB connection password and other environment variables (see Environment Variables for details).
+
+##  Environment Variables
+
+Create a .env file in the root directory of your project and add the following variables:
+
+   ```makefile
+   	PASSWORD=your_mongodb_password
+      SECRET=your_jwt_secret
+
+
+## Usage
+
