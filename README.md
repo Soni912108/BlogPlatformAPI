@@ -52,7 +52,6 @@ Before you begin, ensure you have met the following requirements:
     
 1.Create a .env file in the root directory of your project and add the following variables:
 
-    ```makefile
          PASSWORD=your_mongodb_password
          SECRET=your_jwt_secret
 
@@ -75,5 +74,11 @@ The API has rate limiting in place to prevent abuse. By default, each IP address
 ## Error Handling and Logging
 The project uses Winston for logging and centralized error handling. Logs are written to the console and a combined.log file.
 
+
+## Endpoints
+**Authentication**
+
+POST /api/auth/register: Register a new user
+POST /api/auth/login: Login a user
 
 
