@@ -57,9 +57,9 @@ Before you begin, ensure you have met the following requirements:
 ## Usage 
 
 To start the server in development mode, run:
-         ```bash
-         npm run dev
+   ```bash
+      npm run dev
 
-The server will be running on http://localhost:3001.
+## The server will be running on http://localhost:3001.
  
 
