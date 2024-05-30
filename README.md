@@ -36,7 +36,7 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/Soni912108/blog-api.git
-   cd blog-platform-api
+   cd blog-api
   
 2. Install the dependencies:
 
