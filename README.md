@@ -52,14 +52,19 @@ Before you begin, ensure you have met the following requirements:
     
 1.Create a .env file in the root directory of your project and add the following variables:
 
+   PASSWORD=your_mongodb_password
+   SECRET=your_jwt_secret
 
+Replace your_mongodb_password and your_jwt_secret with your actual MongoDB password and JWT secret.
 
 ## Usage 
 
 To start the server in development mode, run:
-   ```bash
+
       npm run dev
 
-## The server will be running on http://localhost:3001.
- 
+The server will be running on http://localhost:3001.
+
+
+
 
