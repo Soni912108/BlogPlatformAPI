@@ -38,15 +38,11 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/Soni912108/blog-api.git
    cd blog-platform-api
   
-
-
 2. Install the dependencies:
 
    ```bash
     npm install
-
-
-
+   
 ##  Environment Variables
 
     
