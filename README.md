@@ -84,13 +84,42 @@ The project uses Winston for logging and centralized error handling. Logs are wr
 
 **Posts**
 
--GET /api/posts: Get all posts
+- GET /api/posts: Get all posts
 
--POST /api/posts: Create a new post (protected)
+- POST /api/posts: Create a new post (protected)
 
--PUT /api/posts/
+- PUT /api/posts/
 : Update a post (protected)
 
--DELETE /api/posts/
+- DELETE /api/posts/
 : Delete a post (protected)
+
+##  Contributing
+**Contributions are welcome! Please follow these steps:**
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature-branch).
+Open a pull request.
+
+
+##  License
+**This project is licensed under the MIT License. See the LICENSE file for more details.**
+
+
+### Explanation
+
+- **Features**: Lists the main features of your project.
+- **Prerequisites**: Mentions the requirements to run the project.
+- **Installation**: Provides steps to clone the repo and install dependencies.
+- **Environment Variables**: Instructs how to set up necessary environment variables.
+- **Usage**: Describes how to start the server.
+- **API Documentation**: Points to the Swagger documentation URL.
+- **Rate Limiting**: Briefly explains the rate limiting implemented.
+- **Error Handling and Logging**: Mentions the logging mechanism.
+- **Endpoints**: Lists the API endpoints with their descriptions.
+- **Contributing**: Provides steps for contributing to the project.
+- **License**: States the project's license.
 
