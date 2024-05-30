@@ -105,17 +105,4 @@ Open a pull request.
 **This project is licensed under the MIT License. See the LICENSE file for more details.**
 
 
-### Explanation
-
-- **Features**: Lists the main features of your project.
-- **Prerequisites**: Mentions the requirements to run the project.
-- **Installation**: Provides steps to clone the repo and install dependencies.
-- **Environment Variables**: Instructs how to set up necessary environment variables.
-- **Usage**: Describes how to start the server.
-- **API Documentation**: Points to the Swagger documentation URL.
-- **Rate Limiting**: Briefly explains the rate limiting implemented.
-- **Error Handling and Logging**: Mentions the logging mechanism.
-- **Endpoints**: Lists the API endpoints with their descriptions.
-- **Contributing**: Provides steps for contributing to the project.
-- **License**: States the project's license.
 
