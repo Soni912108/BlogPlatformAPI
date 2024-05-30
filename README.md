@@ -78,7 +78,8 @@ The project uses Winston for logging and centralized error handling. Logs are wr
 ## Endpoints
 **Authentication**
 
-POST /api/auth/register: Register a new user
-POST /api/auth/login: Login a user
+• POST /api/auth/register: Register a new user
+
+• POST /api/auth/login: Login a user
 
 
