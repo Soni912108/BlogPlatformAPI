@@ -49,8 +49,17 @@ Before you begin, ensure you have met the following requirements:
 
 ##  Environment Variables
 
-Create a .env file in the root directory of your project and add the following variables:
+    
+1.Create a .env file in the root directory of your project and add the following variables:
 
-   ```makefile
-   	 PASSWORD=your_mongodb_password
-       SECRET=your_jwt_secret```
+
+
+## Usage 
+
+To start the server in development mode, run:
+         ```bash
+         npm run dev
+
+The server will be running on http://localhost:3001.
+ 
+
