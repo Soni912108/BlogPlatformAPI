@@ -52,9 +52,5 @@ Before you begin, ensure you have met the following requirements:
 Create a .env file in the root directory of your project and add the following variables:
 
    ```makefile
-   	PASSWORD=your_mongodb_password
-      SECRET=your_jwt_secret
-
-
-## Usage
-
+   	 PASSWORD=your_mongodb_password
+       SECRET=your_jwt_secret```
