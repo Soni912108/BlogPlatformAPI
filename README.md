@@ -35,7 +35,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/blog-platform-api.git
+   git clone https://github.com/Soni912108/blog-api.git
    cd blog-platform-api
   
 
@@ -45,7 +45,7 @@ Before you begin, ensure you have met the following requirements:
    ```bash
     npm install
 
-3.Create a .env file in the root directory and add your MongoDB connection password and other environment variables (see Environment Variables for details).
+
 
 ##  Environment Variables
 
