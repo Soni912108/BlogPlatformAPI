@@ -78,8 +78,19 @@ The project uses Winston for logging and centralized error handling. Logs are wr
 ## Endpoints
 **Authentication**
 
-• POST /api/auth/register: Register a new user
+- POST /api/auth/register: Register a new user
 
-• POST /api/auth/login: Login a user
+- POST /api/auth/login: Login a user
 
+**Posts**
+
+-GET /api/posts: Get all posts
+
+-POST /api/posts: Create a new post (protected)
+
+-PUT /api/posts/
+: Update a post (protected)
+
+-DELETE /api/posts/
+: Delete a post (protected)
 
