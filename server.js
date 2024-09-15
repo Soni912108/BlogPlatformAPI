@@ -48,13 +48,10 @@ app.use('/api/auth', authRoutes);
 app.use('/api/posts', postRoutes);
 
 // Connect to MongoDB
-const password = process.env.PASSWORD; // Access password from environment variables
-const encodedPassword = encodeURIComponent(password); // encoding for string error handling on the str_conn in mongoose.connect
+const mongoUri = process.env.MONGODB_URI; // Access MongoDB URI from environment variables
 
 mongoose
-  .connect(
-    `mongodb+srv://sonimailfortestuse:${encodedPassword}@backenddb.yf5ipol.mongodb.net/blog?retryWrites=true&w=majority&appName=BackendDB`
-  )
+  .connect(mongoUri)
   .then(() => {
     logger.info("Connected to the blog database!");
     app.listen(3001, () => {
@@ -64,3 +61,4 @@ mongoose
   .catch((error) => {
     logger.error("Connection failed!", error);
   });
+
