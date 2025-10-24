@@ -11,8 +11,6 @@ This is a backend API for a blogging platform, built using Node.js, Express.js, 
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
 - [Rate Limiting](#rate-limiting)
-- [Error Handling and Logging](#error-handling-and-logging)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -89,16 +87,6 @@ The project uses Winston for logging and centralized error handling. Logs are wr
 
 - DELETE /api/posts/
 : Delete a post (protected)
-
-##  Contributing
-**Contributions are welcome! Please follow these steps:**
-
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
 
 
 ##  License
