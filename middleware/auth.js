@@ -1,12 +1,16 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
+require('dotenv').config();
+const jwtSecret = process.env.JWT_SECRET;
+
+
 const protect = async (req, res, next) => {
     let token;
     if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
         try {
             token = req.headers.authorization.split(' ')[1];
-            const decoded = jwt.verify(token, 'your_jwt_secret'); // chnage 'your_jwt_secret' with the actual token as per readme.md instructions
+            const decoded = jwt.verify(token, jwtSecret);
             req.user = await User.findById(decoded.id).select('-password');
             next();
         } catch (error) {
@@ -20,3 +24,4 @@ const protect = async (req, res, next) => {
 };
 
 module.exports = { protect };
+
