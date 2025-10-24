@@ -4,11 +4,12 @@ const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
-const logger = require('./logger/loggerTool');
 const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
-require('dotenv').config();
 
+
+require('dotenv').config();
+const logger = require('./logger/loggerTool');
 const authRoutes = require('./routes/authRoutes');
 const postRoutes = require('./routes/postRoutes');
 
@@ -61,4 +62,5 @@ mongoose
   .catch((error) => {
     logger.error("Connection failed!", error);
   });
+
 
